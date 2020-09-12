@@ -64,6 +64,23 @@ final class DonationTypeViewController: UIViewController {
         
         view.addSubview(targetDonationButton)
         view.addSubview(regularDonationButton)
+        
+        targetDonationButton.addGestureRecognizer(
+            UITapGestureRecognizer(target: self, action: #selector(didTapTargetDonationButton))
+        )
+        
+        regularDonationButton.addGestureRecognizer(
+            UITapGestureRecognizer(target: self, action: #selector(didTapRegularDonationButton))
+        )
     }
     
+    @objc private func didTapTargetDonationButton() {
+        let vc = DonationAssembly.assemble(with: .target)
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func didTapRegularDonationButton() {
+        let vc = DonationAssembly.assemble(with: .regular)
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C08B7A4250BB6EF0043C3B0 /* DonationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7A3250BB6EF0043C3B0 /* DonationType.swift */; };
+		2C08B7A6250BB80E0043C3B0 /* DonationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7A5250BB80E0043C3B0 /* DonationButton.swift */; };
+		2C08B7A8250BD0E00043C3B0 /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7A7250BD0E00043C3B0 /* UIColor+HexString.swift */; };
+		2C08B7AC250BD81B0043C3B0 /* DonationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7AB250BD81B0043C3B0 /* DonationAssembly.swift */; };
+		2C08B7AE250BD8480043C3B0 /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7AD250BD8480043C3B0 /* DonationViewController.swift */; };
+		2C08B7B0250BDA420043C3B0 /* DonationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7AF250BDA420043C3B0 /* DonationViewModel.swift */; };
+		2C08B7B2250BDB3B0043C3B0 /* DonationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7B1250BDB3B0043C3B0 /* DonationSection.swift */; };
+		2C08B7B5250BDD360043C3B0 /* DonationPhotoHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7B4250BDD360043C3B0 /* DonationPhotoHeaderCell.swift */; };
+		2C08B7B7250BF3470043C3B0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7B6250BF3470043C3B0 /* ImagePicker.swift */; };
+		2C08B7B9250BF8A60043C3B0 /* DonationTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7B8250BF8A60043C3B0 /* DonationTextFieldCell.swift */; };
+		2C08B7BB250C9E2F0043C3B0 /* DonationMultilineTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7BA250C9E2F0043C3B0 /* DonationMultilineTextFieldCell.swift */; };
+		2C08B7C0250CA6A10043C3B0 /* DonationTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7BF250CA6A10043C3B0 /* DonationTitleCell.swift */; };
+		2C08B7C3250CBC410043C3B0 /* SnippetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7C2250CBC410043C3B0 /* SnippetAssembly.swift */; };
+		2C08B7C5250CBC720043C3B0 /* SnippetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B7C4250CBC720043C3B0 /* SnippetViewController.swift */; };
+		2CB9B1CF250BA30600791968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B1CE250BA30600791968 /* AppDelegate.swift */; };
+		2CB9B1D8250BA30600791968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1D7250BA30600791968 /* Assets.xcassets */; };
+		2CB9B1DB250BA30600791968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1D9250BA30600791968 /* LaunchScreen.storyboard */; };
+		2CB9B1E3250BA35B00791968 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B1E2250BA35B00791968 /* LaunchViewController.swift */; };
+		2CB9B1E6250BA42100791968 /* LaunchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B1E5250BA42100791968 /* LaunchAssembly.swift */; };
+		2CB9B1F6250BA83E00791968 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1E9250BA83E00791968 /* Roboto-Medium.ttf */; };
+		2CB9B1F7250BA83E00791968 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1EA250BA83E00791968 /* Roboto-Light.ttf */; };
+		2CB9B1F8250BA83E00791968 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1EB250BA83E00791968 /* Roboto-Regular.ttf */; };
+		2CB9B1F9250BA83E00791968 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1EC250BA83E00791968 /* Roboto-MediumItalic.ttf */; };
+		2CB9B1FA250BA83E00791968 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1ED250BA83E00791968 /* Roboto-ThinItalic.ttf */; };
+		2CB9B1FB250BA83E00791968 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1EE250BA83E00791968 /* Roboto-BoldItalic.ttf */; };
+		2CB9B1FC250BA83E00791968 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1EF250BA83E00791968 /* Roboto-LightItalic.ttf */; };
+		2CB9B1FD250BA83E00791968 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1F0250BA83E00791968 /* Roboto-Italic.ttf */; };
+		2CB9B1FE250BA83E00791968 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1F1250BA83E00791968 /* LICENSE.txt */; };
+		2CB9B1FF250BA83E00791968 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1F2250BA83E00791968 /* Roboto-BlackItalic.ttf */; };
+		2CB9B200250BA83E00791968 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1F3250BA83E00791968 /* Roboto-Bold.ttf */; };
+		2CB9B201250BA83E00791968 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1F4250BA83E00791968 /* Roboto-Thin.ttf */; };
+		2CB9B202250BA83E00791968 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9B1F5250BA83E00791968 /* Roboto-Black.ttf */; };
+		2CB9B204250BA8C900791968 /* UIFont+Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B203250BA8C900791968 /* UIFont+Roboto.swift */; };
+		2CB9B207250BAC0D00791968 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B206250BAC0D00791968 /* BlueButton.swift */; };
+		2CB9B20A250BAF9500791968 /* DonationTypeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B209250BAF9500791968 /* DonationTypeAssembly.swift */; };
+		2CB9B20C250BAFC100791968 /* DonationTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9B20B250BAFC100791968 /* DonationTypeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C08B7A3250BB6EF0043C3B0 /* DonationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationType.swift; sourceTree = "<group>"; };
+		2C08B7A5250BB80E0043C3B0 /* DonationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationButton.swift; sourceTree = "<group>"; };
+		2C08B7A7250BD0E00043C3B0 /* UIColor+HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
+		2C08B7AB250BD81B0043C3B0 /* DonationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationAssembly.swift; sourceTree = "<group>"; };
+		2C08B7AD250BD8480043C3B0 /* DonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
+		2C08B7AF250BDA420043C3B0 /* DonationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationViewModel.swift; sourceTree = "<group>"; };
+		2C08B7B1250BDB3B0043C3B0 /* DonationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationSection.swift; sourceTree = "<group>"; };
+		2C08B7B4250BDD360043C3B0 /* DonationPhotoHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationPhotoHeaderCell.swift; sourceTree = "<group>"; };
+		2C08B7B6250BF3470043C3B0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2C08B7B8250BF8A60043C3B0 /* DonationTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTextFieldCell.swift; sourceTree = "<group>"; };
+		2C08B7BA250C9E2F0043C3B0 /* DonationMultilineTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationMultilineTextFieldCell.swift; sourceTree = "<group>"; };
+		2C08B7BF250CA6A10043C3B0 /* DonationTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTitleCell.swift; sourceTree = "<group>"; };
+		2C08B7C2250CBC410043C3B0 /* SnippetAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetAssembly.swift; sourceTree = "<group>"; };
+		2C08B7C4250CBC720043C3B0 /* SnippetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetViewController.swift; sourceTree = "<group>"; };
+		2CB9B1CB250BA30600791968 /* VKDonations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKDonations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB9B1CE250BA30600791968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CB9B1D7250BA30600791968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CB9B1DA250BA30600791968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CB9B1DC250BA30600791968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB9B1E2250BA35B00791968 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		2CB9B1E5250BA42100791968 /* LaunchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAssembly.swift; sourceTree = "<group>"; };
+		2CB9B1E9250BA83E00791968 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2CB9B1EA250BA83E00791968 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		2CB9B1EB250BA83E00791968 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2CB9B1EC250BA83E00791968 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2CB9B1ED250BA83E00791968 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2CB9B1EE250BA83E00791968 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2CB9B1EF250BA83E00791968 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		2CB9B1F0250BA83E00791968 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		2CB9B1F1250BA83E00791968 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2CB9B1F2250BA83E00791968 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2CB9B1F3250BA83E00791968 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2CB9B1F4250BA83E00791968 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		2CB9B1F5250BA83E00791968 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		2CB9B203250BA8C900791968 /* UIFont+Roboto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Roboto.swift"; sourceTree = "<group>"; };
+		2CB9B206250BAC0D00791968 /* BlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
+		2CB9B209250BAF9500791968 /* DonationTypeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTypeAssembly.swift; sourceTree = "<group>"; };
+		2CB9B20B250BAFC100791968 /* DonationTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTypeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CB9B1C8250BA30600791968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C08B7A9250BD7650043C3B0 /* DonationModule */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B7B3250BDD1D0043C3B0 /* Cells */,
+				2C08B7AB250BD81B0043C3B0 /* DonationAssembly.swift */,
+				2C08B7AD250BD8480043C3B0 /* DonationViewController.swift */,
+				2C08B7AF250BDA420043C3B0 /* DonationViewModel.swift */,
+				2C08B7B1250BDB3B0043C3B0 /* DonationSection.swift */,
+			);
+			path = DonationModule;
+			sourceTree = "<group>";
+		};
+		2C08B7B3250BDD1D0043C3B0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B7B4250BDD360043C3B0 /* DonationPhotoHeaderCell.swift */,
+				2C08B7B8250BF8A60043C3B0 /* DonationTextFieldCell.swift */,
+				2C08B7BA250C9E2F0043C3B0 /* DonationMultilineTextFieldCell.swift */,
+				2C08B7BF250CA6A10043C3B0 /* DonationTitleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C08B7C1250CBC2F0043C3B0 /* Snippet */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B7C2250CBC410043C3B0 /* SnippetAssembly.swift */,
+				2C08B7C4250CBC720043C3B0 /* SnippetViewController.swift */,
+			);
+			path = Snippet;
+			sourceTree = "<group>";
+		};
+		2CB9B1C2250BA30600791968 = {
+			isa = PBXGroup;
+			children = (
+				2CB9B1CD250BA30600791968 /* VKDonations */,
+				2CB9B1CC250BA30600791968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CB9B1CC250BA30600791968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9B1CB250BA30600791968 /* VKDonations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CB9B1CD250BA30600791968 /* VKDonations */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B7C1250CBC2F0043C3B0 /* Snippet */,
+				2C08B7A9250BD7650043C3B0 /* DonationModule */,
+				2CB9B208250BAF6F00791968 /* DontationTypeModule */,
+				2CB9B205250BABC800791968 /* Common */,
+				2CB9B1E7250BA6BC00791968 /* Resources */,
+				2CB9B1E4250BA3BA00791968 /* LaunchModule */,
+				2CB9B1CE250BA30600791968 /* AppDelegate.swift */,
+				2CB9B1D7250BA30600791968 /* Assets.xcassets */,
+				2CB9B1D9250BA30600791968 /* LaunchScreen.storyboard */,
+				2CB9B1DC250BA30600791968 /* Info.plist */,
+			);
+			path = VKDonations;
+			sourceTree = "<group>";
+		};
+		2CB9B1E4250BA3BA00791968 /* LaunchModule */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9B1E2250BA35B00791968 /* LaunchViewController.swift */,
+				2CB9B1E5250BA42100791968 /* LaunchAssembly.swift */,
+			);
+			path = LaunchModule;
+			sourceTree = "<group>";
+		};
+		2CB9B1E7250BA6BC00791968 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9B1E8250BA83E00791968 /* Roboto */,
+				2CB9B203250BA8C900791968 /* UIFont+Roboto.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CB9B1E8250BA83E00791968 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9B1E9250BA83E00791968 /* Roboto-Medium.ttf */,
+				2CB9B1EA250BA83E00791968 /* Roboto-Light.ttf */,
+				2CB9B1EB250BA83E00791968 /* Roboto-Regular.ttf */,
+				2CB9B1EC250BA83E00791968 /* Roboto-MediumItalic.ttf */,
+				2CB9B1ED250BA83E00791968 /* Roboto-ThinItalic.ttf */,
+				2CB9B1EE250BA83E00791968 /* Roboto-BoldItalic.ttf */,
+				2CB9B1EF250BA83E00791968 /* Roboto-LightItalic.ttf */,
+				2CB9B1F0250BA83E00791968 /* Roboto-Italic.ttf */,
+				2CB9B1F1250BA83E00791968 /* LICENSE.txt */,
+				2CB9B1F2250BA83E00791968 /* Roboto-BlackItalic.ttf */,
+				2CB9B1F3250BA83E00791968 /* Roboto-Bold.ttf */,
+				2CB9B1F4250BA83E00791968 /* Roboto-Thin.ttf */,
+				2CB9B1F5250BA83E00791968 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		2CB9B205250BABC800791968 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9B206250BAC0D00791968 /* BlueButton.swift */,
+				2C08B7A7250BD0E00043C3B0 /* UIColor+HexString.swift */,
+				2C08B7B6250BF3470043C3B0 /* ImagePicker.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2CB9B208250BAF6F00791968 /* DontationTypeModule */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9B209250BAF9500791968 /* DonationTypeAssembly.swift */,
+				2CB9B20B250BAFC100791968 /* DonationTypeViewController.swift */,
+				2C08B7A3250BB6EF0043C3B0 /* DonationType.swift */,
+				2C08B7A5250BB80E0043C3B0 /* DonationButton.swift */,
+			);
+			path = DontationTypeModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CB9B1CA250BA30600791968 /* VKDonations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB9B1DF250BA30600791968 /* Build configuration list for PBXNativeTarget "VKDonations" */;
+			buildPhases = (
+				2CB9B1C7250BA30600791968 /* Sources */,
+				2CB9B1C8250BA30600791968 /* Frameworks */,
+				2CB9B1C9250BA30600791968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKDonations;
+			productName = VKDonations;
+			productReference = 2CB9B1CB250BA30600791968 /* VKDonations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CB9B1C3250BA30600791968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Максим Стегниенко";
+				TargetAttributes = {
+					2CB9B1CA250BA30600791968 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 2CB9B1C6250BA30600791968 /* Build configuration list for PBXProject "VKDonations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CB9B1C2250BA30600791968;
+			productRefGroup = 2CB9B1CC250BA30600791968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CB9B1CA250BA30600791968 /* VKDonations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CB9B1C9250BA30600791968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB9B201250BA83E00791968 /* Roboto-Thin.ttf in Resources */,
+				2CB9B1FE250BA83E00791968 /* LICENSE.txt in Resources */,
+				2CB9B202250BA83E00791968 /* Roboto-Black.ttf in Resources */,
+				2CB9B200250BA83E00791968 /* Roboto-Bold.ttf in Resources */,
+				2CB9B1DB250BA30600791968 /* LaunchScreen.storyboard in Resources */,
+				2CB9B1D8250BA30600791968 /* Assets.xcassets in Resources */,
+				2CB9B1FB250BA83E00791968 /* Roboto-BoldItalic.ttf in Resources */,
+				2CB9B1F8250BA83E00791968 /* Roboto-Regular.ttf in Resources */,
+				2CB9B1FA250BA83E00791968 /* Roboto-ThinItalic.ttf in Resources */,
+				2CB9B1FC250BA83E00791968 /* Roboto-LightItalic.ttf in Resources */,
+				2CB9B1FF250BA83E00791968 /* Roboto-BlackItalic.ttf in Resources */,
+				2CB9B1F7250BA83E00791968 /* Roboto-Light.ttf in Resources */,
+				2CB9B1FD250BA83E00791968 /* Roboto-Italic.ttf in Resources */,
+				2CB9B1F9250BA83E00791968 /* Roboto-MediumItalic.ttf in Resources */,
+				2CB9B1F6250BA83E00791968 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CB9B1C7250BA30600791968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB9B1CF250BA30600791968 /* AppDelegate.swift in Sources */,
+				2C08B7AC250BD81B0043C3B0 /* DonationAssembly.swift in Sources */,
+				2CB9B20A250BAF9500791968 /* DonationTypeAssembly.swift in Sources */,
+				2C08B7C3250CBC410043C3B0 /* SnippetAssembly.swift in Sources */,
+				2CB9B207250BAC0D00791968 /* BlueButton.swift in Sources */,
+				2C08B7A6250BB80E0043C3B0 /* DonationButton.swift in Sources */,
+				2C08B7C5250CBC720043C3B0 /* SnippetViewController.swift in Sources */,
+				2C08B7C0250CA6A10043C3B0 /* DonationTitleCell.swift in Sources */,
+				2C08B7BB250C9E2F0043C3B0 /* DonationMultilineTextFieldCell.swift in Sources */,
+				2C08B7B9250BF8A60043C3B0 /* DonationTextFieldCell.swift in Sources */,
+				2C08B7B5250BDD360043C3B0 /* DonationPhotoHeaderCell.swift in Sources */,
+				2C08B7A4250BB6EF0043C3B0 /* DonationType.swift in Sources */,
+				2C08B7AE250BD8480043C3B0 /* DonationViewController.swift in Sources */,
+				2C08B7B2250BDB3B0043C3B0 /* DonationSection.swift in Sources */,
+				2C08B7B0250BDA420043C3B0 /* DonationViewModel.swift in Sources */,
+				2CB9B20C250BAFC100791968 /* DonationTypeViewController.swift in Sources */,
+				2CB9B1E6250BA42100791968 /* LaunchAssembly.swift in Sources */,
+				2CB9B1E3250BA35B00791968 /* LaunchViewController.swift in Sources */,
+				2C08B7B7250BF3470043C3B0 /* ImagePicker.swift in Sources */,
+				2C08B7A8250BD0E00043C3B0 /* UIColor+HexString.swift in Sources */,
+				2CB9B204250BA8C900791968 /* UIFont+Roboto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CB9B1D9250BA30600791968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB9B1DA250BA30600791968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CB9B1DD250BA30600791968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CB9B1DE250BA30600791968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CB9B1E0250BA30600791968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 459M4XAJLB;
+				INFOPLIST_FILE = VKDonations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VKDonations.VKDonations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CB9B1E1250BA30600791968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 459M4XAJLB;
+				INFOPLIST_FILE = VKDonations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VKDonations.VKDonations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB9B1C6250BA30600791968 /* Build configuration list for PBXProject "VKDonations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB9B1DD250BA30600791968 /* Debug */,
+				2CB9B1DE250BA30600791968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB9B1DF250BA30600791968 /* Build configuration list for PBXNativeTarget "VKDonations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB9B1E0250BA30600791968 /* Debug */,
+				2CB9B1E1250BA30600791968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CB9B1C3250BA30600791968 /* Project object */;
+}
