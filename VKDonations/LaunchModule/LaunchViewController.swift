@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LaunchViewController.swift
 //  VKDonations
 //
 //  Created by Максим Стегниенко on 11.09.2020.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class LaunchViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
-
-
+    
 }
-
